@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <script>
+        function Bigimage(x)
+        {
+            x.style.width="300px";
+            x.style.height="300px";
+        }
+        function Smallimage(x)
+        {
+            x.style.width="30px";
+            x.style.height="30px";
+        }
+    </script>
+</head>
+<body>
+    <img src="./download.png" width="30px" height="30px" onmousemove="Bigimage(this)" onmouseout="Smallimage(this)"><!--mouseover and mousemove are almost simmilar-->
+</body>
+</html>
